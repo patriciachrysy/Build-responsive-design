@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Cambay', sans-serif;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+.first-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 7px 10px 2px 10px;
+  background-color: black;
+  color: white;  
+  font-size: 14px;
+}
+
+.first-nav ul:first-child {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-items: start;
+  justify-content: start;  
+}
+
+.first-nav ul:last-child {
+  display: grid;
+  grid-template-columns: repeat(5, auto);  
+  justify-items: end;
+  justify-content: end;
+}
+
+.first-nav ul li {
+  margin: 0 5px;
+  align-self: baseline;
+}
+
+.second-nav ul li:first-child {
+  display: none;
+}
+
+.second-nav {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  height: 48px;
+  font-family: 'Changa';
+  color: #AAA;
+}
+
+.second-nav button {
+  justify-content: end;
+  border: none;
+  border-left: 1px solid #AAA;
+  background: none;
+  color: #AAA;
+}
+
+.second-nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-content: start;
+  align-items: center;
+  grid-column-gap: 20px;
+  padding-left: 14px;
+}
+
+.yellow-bar {
+  font-size: 14px;
+  background-color: #fd3;
+  padding: 7px 10px 3px 10px;
+}
+
+
