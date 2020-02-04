@@ -432,3 +432,13 @@ select {
   font-size: 14px;
   line-height: 20px;
 }
+
+.fifth-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.fifth-section article img {
+  width: 100%;
+}
