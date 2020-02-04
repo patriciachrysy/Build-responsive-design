@@ -51,10 +51,6 @@ img {
   display: block;
 }
 
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -218,7 +214,7 @@ select {
 }
 
 .centered-content {
-  width: 70%;
+  width: 80%;
   margin: auto;
   padding: 80px 0;
 }
@@ -252,6 +248,7 @@ select {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding-top: 90px;
+  grid-gap: 20px;
 }
 
 .title {
@@ -277,6 +274,11 @@ select {
   height: 40%;
 }
 
+.title ul li:last-child {
+  border: none;
+  padding-right: 0;
+}
+
 .title a {
   color: #FF4422;
   text-decoration: none;
@@ -289,3 +291,144 @@ select {
   font-size: 30px;
 }
 
+.box {
+  font-size: 15px;
+  font-family: 'Cambay';
+  height: 100%;
+  width: 100%;
+}
+
+.box h4 {
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.box-header {
+  max-height: 35%;
+}
+
+.box-header > h4 {
+  background-color: #FF4422;
+  color: white;
+  text-align: left;
+  padding: 10px 0 10px 80px;
+}
+
+.box-header > div {
+  background-color: rgba(255, 68, 34, 0.08);
+  color: black;
+  text-align: left;
+  padding: 10px 0 10px 80px;
+}
+
+.box-header > div span {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: -10px;
+}
+
+.box-header > img {
+  width: 25%;
+  margin: 5px;
+  position: relative;
+  top: -106px;
+  left: 0;
+}
+
+.box-content {
+  padding: 15px;
+  border-bottom: 1px solid #FF4422;
+}
+
+.box-content i {
+  padding-right: 5px;
+  color: black;
+}
+
+.box-footer {
+  padding: 15px;
+}
+
+.box-footer span {
+  color: #AAA;
+}
+
+.box-content, .box-footer {
+  font-size: 14px;
+  color: #555555;
+}
+
+.fourth-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: auto;
+  grid-gap: 80px 20px;
+  margin-bottom: 100px;
+}
+
+.fourth-section article{
+  height: 100%;
+}
+
+.box-image {
+  background: linear-gradient( rgba(20, 20, 20, 0.2), rgba(12, 12, 12, 0.5), rgba(31, 12, 12, 0.8)),  url(https://www.conferenceseries.com/young-scientist-award/images/young-scientist.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30%;
+  display: grid;
+  grid: 1fr / 1fr;
+  align-items: end;
+}
+
+.box-image h1{
+  font-size: 19px;
+  line-height: 21px;
+}
+
+.article-preview {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 15%;
+  align-items: start;
+  line-height: 20px;
+  background-color: rgba(255,68,34,.06);
+  margin-bottom: 20px;
+}
+
+.article-preview > div {
+  padding: 10px;
+  height: 100%;
+}
+
+.article-preview span {
+  font-family: 'Changa';
+  color: #FF4422;
+}
+
+.article-preview p {
+  font-weight: bold;
+  color: #FF4422;
+}
+
+.article-preview img {
+  height: 100%;
+}
+
+.fourth-section article > ul li {
+  border-bottom: 1px solid rgb(207, 205, 205);
+  padding: 3px;
+}
+
+.fourth-section article > ul li::before {
+  content: "•"; 
+  color: #FF4422;
+  margin-right: 10px;
+}
+
+
+.fourth-section ul li a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 14px;
+  line-height: 20px;
+}
