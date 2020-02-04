@@ -128,4 +128,92 @@ select {
   padding: 7px 10px 3px 10px;
 }
 
+.first-section {
+  display: grid;
+  grid: 1fr 1fr / 60% 1fr;
+  grid-gap: 10px;
+  padding: 0 10px 5px 10px;
+  height: 457px;
+}
+
+.first-article {
+  grid-row: 1 / span 2;
+  background:  linear-gradient( rgba(240, 7, 7, 0.7), rgba(241, 66, 66, 0.5), rgba(31, 12, 12, 0.5)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2FSnag_16e7896-796x419.png&signature=b1ba4b2665d4432311a90867ab0a8786);
+  background-size: cover;
+  background-position: center;
+}
+
+.second-article {
+  background: linear-gradient( rgba(20, 20, 20, 0.2), rgba(12, 12, 12, 0.5), rgba(31, 12, 12, 0.8)),  url(https://images.theconversation.com/files/312917/original/file-20200130-41527-zvrus2.png?ixlib=rb-1.1.0&rect=0%2C5%2C3982%2C2239&q=45&auto=format&w=496&fit=clip);
+  background-size: cover;
+  background-position: center;
+}
+
+.third-article {
+  background: linear-gradient( rgba(20, 20, 20, 0.2), rgba(12, 12, 12, 0.5), rgba(31, 12, 12, 0.8)),  url(https://www.conferenceseries.com/young-scientist-award/images/young-scientist.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.second-article > div, .third-article > div {
+  height: 100%;
+  display: grid;
+  grid: 1fr / 1fr;
+  align-items: end;
+}
+
+.description-container {
+  height: 100%;
+  padding: 0 20px;
+}
+
+.first-article > div {
+  color: white;
+  display: grid;
+  grid: 1fr 1fr / 60% 1fr;
+}
+
+.date-time {
+  justify-self: end;
+}
+
+.text-block {
+  grid-column: 1 / span 2;
+  display: grid;
+  align-items: end;
+  padding: 0 10px 10px 10px;
+  color: white;
+}
+
+.text-block span {
+  font-family: 'Changa';
+}
+
+.text-block h1 {
+  font-size: 50px;
+  line-height: 52px;
+  font-family: 'Patua One', cursive;
+}
+
+.text-block ul {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-items: start;
+  justify-content: start;
+  grid-gap: 10px;
+  font-family: 'Changa';
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.904);
+  margin-top: 10px;
+}
+
+.text-block ul li i{
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.second-article h1, .third-article h1{
+  font-size: 25px;
+  line-height: 30px;
+}
 
