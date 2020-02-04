@@ -217,3 +217,75 @@ select {
   line-height: 30px;
 }
 
+.centered-content {
+  width: 70%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.second-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  font-family: 'Cambay';
+  line-height: 23px;
+}
+
+.second-section article img {
+  height: 50%;
+  width: 100%;
+}
+
+.second-section div {
+  grid-column: 1 / span 4;
+  color: #FF4422;
+  font-family: 'Patua One';
+  font-size: 20px;
+}
+
+.second-section span {
+  font-size: 14px;
+  color: #AAA;
+}
+
+.third-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 90px;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: 1 / span 4;
+  margin-bottom: 20px;
+}
+
+.title ul {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: end;  
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.title ul li {
+  border-right: 1px solid #FF4422 ;
+  padding-right: 15px;
+  display: grid;
+  align-items: center;
+  height: 40%;
+}
+
+.title a {
+  color: #FF4422;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.title h1 {
+  color:#FF4422;
+  font-family: 'Patua One';
+  font-size: 30px;
+}
+
