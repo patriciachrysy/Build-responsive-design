@@ -6,11 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Cambay|Changa|Patua+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cambay&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">  
   <title>Document</title>
 </head>
 <body>
-  <header>
+  <header class="sticky">
     <img src="https://lh3.googleusercontent.com/proxy/eyJKII18c5rmBlzt0EVW50THMWvJ1yclnoddQanKAYEsCnUyhdQLDlqtS-TQfJdYjD-gvDge6mK6PeX0JJyBW6JGhFaB2fy2pCLkcOs6unXFGLQd7WE1" alt="logo">
     <nav class="first-nav">
       <ul>
@@ -39,6 +41,7 @@
         <li>Read Me</li>
       </ul>
       <button><i class="fa fa-search"></i></button>
+      <button><i class="fa fa-bars"></i></button>
     </nav>
     <div class="yellow-bar">
       Our tech festival is coming up in June. Get tickets now →
@@ -46,6 +49,7 @@
   </header>
   <main>
     <section class="first-section">
+      <h4>Title for html checks</h4>
       <article class="first-article">
         <div class="description-container"> 
           <div class="logo">
@@ -56,7 +60,7 @@
           </div>
           <div class="text-block">
             <span>Gear</span>
-            <h1>Leaked video shows Samsung’s upcoming foldable clamshell in action</h1>
+            <h2>Leaked video shows Samsung’s upcoming foldable clamshell in action</h2>
             <ul>
               <li>by Ivan Mehta</li>
               <li><i class="fa fa-clock-o"></i>1 hour ago</li>
@@ -69,7 +73,7 @@
         <div class="description-container">
           <div class="text-block">
             <span>World</span>
-            <h1 class="smaller-title">How Chinese tech giants are assisting in the battle against coronavirus with AI</h1>
+            <h2 class="smaller-title">How Chinese tech giants are assisting in the battle against coronavirus with AI</h2>
             <ul>
               <li>by Ivan Mehta</li>
               <li><i class="fa fa-clock-o"></i>3 hours ago</li>
@@ -82,7 +86,7 @@
         <div class="description-container">
           <div class="text-block">
             <span>World</span>
-            <h1 class="smaller-title">Scientists believe the key to reaching zero emissions is understanding behavior</h1>
+            <h2 class="smaller-title">Scientists believe the key to reaching zero emissions is understanding behavior</h2>
             <ul>
               <li>by The Conversation</li>
               <li><i class="fa fa-clock-o"></i>16 hours ago</li>
@@ -95,60 +99,76 @@
     <div class="centered-content">
       <section class="second-section">
         <div>
-          <h1>Latest News <i class="fa fa-chevron-right"></i></h1>
+          <h2>Latest News <i class="fa fa-chevron-right"></i></h2>
         </div>
         <article>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg" alt="granny">
-          <h3>Monday mornings: Twitter adds custom bitcoin emoji</h3>
-          <span>Matthew Beedham -</span>
-          <span>10 minutes ago</span>
+          <div>
+            <h3>Monday mornings: Twitter adds custom bitcoin emoji</h3>
+            <span>Matthew Beedham -</span>
+            <span>10 minutes ago</span>
+          </div>
         </article>
         <article>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/moonday-morning-478x270.png" alt="granny">
-          <h3>Pagico 9 brings all your tasks and files together to simplify your life. And it’s only $25.</h3>
-          <span>TNW Deals -</span>
-          <span>20 hours ago</span>
+          <div>
+            <h3>Pagico 9 brings all your tasks and files together to simplify your life. And it’s only $25.</h3>
+            <span>TNW Deals -</span>
+            <span>20 hours ago</span>
+          </div>
         </article>
         <article>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/sale_25786_primary_image_wide-540x270.jpg" alt="granny">
-          <h3>How scientists discovered a math equation in rat whiskers</h3>
-          <span>The conversation -</span>
-          <span>1 day ago</span>
+          <div>
+            <h3>How scientists discovered a math equation in rat whiskers</h3>
+            <span>The conversation -</span>
+            <span>1 day ago</span>
+          </div>
         </article>
         <article>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-3-516x270.png" alt="granny">
-          <h3>'Freezing' our bodies is the key to long-distance space travel — but can we do it?</h3>
-          <span>The cosmic companion -</span>
-          <span>1 day ago</span>
+          <div>
+            <h3>'Freezing' our bodies is the key to long-distance space travel — but can we do it?</h3>
+            <span>The cosmic companion -</span>
+            <span>1 day ago</span>
+          </div>
         </article>
         <article>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-1-2-516x270.png" alt="granny">
-          <h3>Satoshi Nakaboto: ‘Nobel Prize-winning economist wants cryptocurrencies shut down’</h3>
-          <span>Satoshi Nakaboto -</span>
-          <span>24 minutes ago</span>
+          <div>
+            <h3>Satoshi Nakaboto: ‘Nobel Prize-winning economist wants cryptocurrencies shut down’</h3>
+            <span>Satoshi Nakaboto -</span>
+            <span>24 minutes ago</span>
+          </div>
         </article>
         <article>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/sale_25677_primary_image_wide-540x270.jpg" alt="granny">
-          <h3>For under $25, this QuickBooks training helps keep your small business accounting on point</h3>
-          <span>TNW Deals -</span>
-          <span>1 day ago</span>
+          <div>
+            <h3>For under $25, this QuickBooks training helps keep your small business accounting on point</h3>
+            <span>TNW Deals -</span>
+            <span>1 day ago</span>
+          </div>
         </article>
         <article>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-5-516x270.png" alt="granny">
-          <h3>Machine learning for everyone: How to implement pose estimation in a browser using your webcam</h3>
-          <span>Kartik Nighania -</span>
-          <span>2 days ago</span>
+          <div>
+            <h3>Machine learning for everyone: How to implement pose estimation in a browser using your webcam</h3>
+            <span>Kartik Nighania -</span>
+            <span>2 days ago</span>
+          </div>
         </article>
         <article>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/India-Flag-hed-513x270.jpg" alt="granny">
-          <h3>India finally commits to quantum computing, promises $1.12B investment</h3>
-          <span>Ivan Mehta </span>
-          <span>2 days ago</span>
+          <div>
+            <h3>India finally commits to quantum computing, promises $1.12B investment</h3>
+            <span>Ivan Mehta </span>
+            <span>2 days ago</span>
+          </div>
         </article>
       </section>
       <section class="third-section">
         <div class="title">
-          <h1>Latest funding rounds on Index.co <i class="fa fa-chevron-right"></i></h1>
+          <h2>Latest funding rounds on Index.co <i class="fa fa-chevron-right"></i></h2>
           <ul>
             <li><a href="#">Add info</a></li>
             <li><a href="#">Get updates by email</a></li>
@@ -158,12 +178,12 @@
 
         <div class="box">
           <div class="box-header">
+            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F996570262781837312%2Fk7-4UOTF.jpg&signature=9d7d8e9caac6d0e489d2f9c177939231" alt="box-image">
             <h4>Fruitas Holdig Inc</h4>
             <div class="price-tag">
               <h4>$20M</h4>
               <span>IPD</span>
             </div>
-            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F996570262781837312%2Fk7-4UOTF.jpg&signature=9d7d8e9caac6d0e489d2f9c177939231" alt="box-image">
           </div>
           <div class="box-content">
             <span><i class="fa fa-tag"></i>Financial services</span>
@@ -176,12 +196,12 @@
 
         <div class="box">
           <div class="box-header">
+            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F872216008370470916%2Fd8Foz1gX.jpg&signature=5c7562fd7f8b394328c0c4d47e65b0d1" alt="box-image">
             <h4>Baton Systems</h4>
             <div class="price-tag">
               <h4>$4M</h4>
               <span>Serie A</span>
             </div>
-            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F872216008370470916%2Fd8Foz1gX.jpg&signature=5c7562fd7f8b394328c0c4d47e65b0d1" alt="box-image">
           </div>
           <div class="box-content">
             <span><i class="fa fa-tag"></i>Information technology</span><br>
@@ -195,12 +215,12 @@
 
         <div class="box">
           <div class="box-header">
+            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1169455071161180161%2FRWzd6q3T.png&signature=9abfd1b56a649808dfe655c8baae4a81" alt="box-image">
             <h4>Fruitas Holdig Inc</h4>
             <div class="price-tag">
               <h4>$100M</h4>
               <span>EQUITY CROWDFUNDING</span>
             </div>
-            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1169455071161180161%2FRWzd6q3T.png&signature=9abfd1b56a649808dfe655c8baae4a81" alt="box-image">
           </div>
           <div class="box-content">
             <span><i class="fa fa-tag"></i>Fashion</span> <br>
@@ -216,12 +236,12 @@
 
         <div class="box">
           <div class="box-header">
+            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1054794943330508806%2FKL1_Bd0t.jpg&signature=ca89ff970d74190bf3ace15b04cfcf06" alt="box-image">
             <h4>One Medical Group</h4>
             <div class="price-tag">
               <h4>$245M</h4>
               <span>IPD</span>
             </div>
-            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1054794943330508806%2FKL1_Bd0t.jpg&signature=ca89ff970d74190bf3ace15b04cfcf06" alt="box-image">
           </div>
           <div class="box-content">
             <span><i class="fa fa-tag"></i>Medical</span>
@@ -235,14 +255,14 @@
       </section>
 
       <section class="fourth-section">
-
+        <h4>Title for html checks</h4>
         <article>
           <div class="title">
-            <h1>Apps <i class="fa fa-chevron-right"></i></h1>
+            <h2>Apps <i class="fa fa-chevron-right"></i></h2>
           </div>
           <div class="box-image text-block">
               <span>Most popular</span>
-              <h1>Twitter now lets you report voter suppression -- here's how</h1>
+              <h2>Twitter now lets you report voter suppression -- here's how</h2>
               <ul>
                 <li>Rachel Kaser</li>
                 <li>3 days ago</li>
@@ -267,11 +287,11 @@
 
         <article>
           <div class="title">
-            <h1>Gear <i class="fa fa-chevron-right"></i></h1>
+            <h2>Gear <i class="fa fa-chevron-right"></i></h2>
           </div>
           <div class="box-image text-block">
               <span>Most popular</span>
-              <h1>Leaked video shows Samsung’s upcoming foldable clamshell in action</h1>
+              <h2>Leaked video shows Samsung’s upcoming foldable clamshell in action</h2>
               <ul>
                 <li>Ivan Metha</li>
                 <li>1 hour ago</li>
@@ -296,11 +316,11 @@
 
         <article>
           <div class="title">
-            <h1>Tech <i class="fa fa-chevron-right"></i></h1>
+            <h2>Tech <i class="fa fa-chevron-right"></i></h2>
           </div>
           <div class="box-image text-block">
               <span>Most popular</span>
-              <h1>Machine learning for everyone: How to implement pose estimation in a browser using your webcam</h1>
+              <h2>Machine learning for everyone: How to implement pose estimation in a browser using your webcam</h2>
               <ul>
                 <li>Kartik Nigania</li>
                 <li>2 days ago</li>
@@ -324,11 +344,11 @@
 
         <article>
           <div class="title">
-            <h1>Creative <i class="fa fa-chevron-right"></i></h1>
+            <h2>Creative <i class="fa fa-chevron-right"></i></h2>
           </div>
           <div class="box-image text-block">
               <span>Most popular</span>
-              <h1>Leaked trailer offers a new look at Godfall, the first game announced for PS5</h1>
+              <h2>Leaked trailer offers a new look at Godfall, the first game announced for PS5</h2>
               <ul>
                 <li>Mix</li>
                 <li>12 days ago</li>
@@ -353,11 +373,11 @@
 
         <article>
           <div class="title">
-            <h1>Podium <i class="fa fa-chevron-right"></i></h1>
+            <h2>Podium <i class="fa fa-chevron-right"></i></h2>
           </div>
           <div class="box-image text-block">
               <span>Most popular</span>
-              <h1>Everything you need to know about Bees in Minecraft</h1>
+              <h2>Everything you need to know about Bees in Minecraft</h2>
               <ul>
                 <li>Tom.WIlliamson</li>
                 <li>3 days ago</li>
@@ -382,11 +402,11 @@
 
         <article>
           <div class="title">
-            <h1>Insight <i class="fa fa-chevron-right"></i></h1>
+            <h2>Insight <i class="fa fa-chevron-right"></i></h2>
           </div>
           <div class="box-image text-block">
               <span>Most popular</span>
-              <h1>Satoshi Nakaboto: ‘Nobel Prize-winning economist wants cryptocurrencies shut down’</h1>
+              <h2>Satoshi Nakaboto: ‘Nobel Prize-winning economist wants cryptocurrencies shut down’</h2>
               <ul>
                 <li>Satochi Kasaboto</li>
                 <li>3 hours ago</li>
@@ -411,11 +431,11 @@
 
         <article>
           <div class="title">
-            <h1>Launch <i class="fa fa-chevron-right"></i></h1>
+            <h2>Launch <i class="fa fa-chevron-right"></i></h2>
           </div>
           <div class="box-image text-block">
               <span>Most popular</span>
-              <h1>PSA: Amazon Fresh grocery deliveries are now free for US Prime members</h1>
+              <h2>PSA: Amazon Fresh grocery deliveries are now free for US Prime members</h2>
               <ul>
                 <li>Abimanyu Ghoshal</li>
                 <li>3 months ago</li>
@@ -440,11 +460,11 @@
 
         <article>
           <div class="title">
-            <h1>Distract <i class="fa fa-chevron-right"></i></h1>
+            <h2>Distract <i class="fa fa-chevron-right"></i></h2>
           </div>
           <div class="box-image text-block">
               <span>Most popular</span>
-              <h1>Netflix is turning One Piece into a live-action series and I'm worried</h1>
+              <h2>Netflix is turning One Piece into a live-action series and I'm worried</h2>
               <ul>
                 <li>Napier Lopez</li>
                 <li>3 days ago</li>
@@ -469,7 +489,7 @@
 
       <section class="fifth-section">
         <div class="title">
-          <h1>Latest Deals <i class="fa fa-chevron-right"></i></h1>
+          <h2>Latest Deals <i class="fa fa-chevron-right"></i></h2>
           <ul>
             <li><a href="#">See all deals</a></li>
           </ul>
@@ -478,65 +498,81 @@
           <div class="deal-image">
             <div class="discount-ribon">98% OFF</div>
           </div>
-          <h3>The Quickbooks Pro Desktop Certification Bonus Bundle</h3>
-          <span>$1600 </span>
-          <span>$24.99</span>
+          <div>
+            <h3>The Quickbooks Pro Desktop Certification Bonus Bundle</h3>
+            <span>$1600 </span>
+            <span>$24.99</span>
+          </div>
         </article>
         <article>
           <div class="deal-image">
             <div class="discount-ribon">98% OFF</div>
           </div>
-          <h3>Learn How to Draw Freebie Bundle</h3>
-          <span>$0</span>
-          <span>$0</span>
+          <div>
+            <h3>Learn How to Draw Freebie Bundle</h3>
+            <span>$0</span>
+            <span>$0</span>
+          </div>
         </article>
         <article>
           <div class="deal-image">
             <div class="discount-ribon">98% OFF</div>
           </div>
-          <h3>The 2020 Adobe Illustrator CC Master Class Bundle</h3>
-          <span>$284</span>
-          <span>$39.99</span>
+          <div>
+            <h3>The 2020 Adobe Illustrator CC Master Class Bundle</h3>
+            <span>$284</span>
+            <span>$39.99</span>
+          </div>
         </article>
         <article>
           <div class="deal-image">
             <div class="discount-ribon">98% OFF</div>
           </div>
-          <h3>FastestVPN: Lifetime Subscription (5 Devices)</h3>
-          <span>$600</span>
-          <span>$19.99</span>
+          <div>
+            <h3>FastestVPN: Lifetime Subscription (5 Devices)</h3>
+            <span>$600</span>
+            <span>$19.99</span>
+          </div>
         </article>
         <article>
           <div class="deal-image">
             <div class="discount-ribon">98% OFF</div>
           </div>
-          <h3>The 2020 Adobe InDesign CC Master Class Bundle</h3>
-          <span>$221</span>
-          <span>$39.99</span>
+          <div>
+            <h3>The 2020 Adobe InDesign CC Master Class Bundle</h3>
+            <span>$221</span>
+            <span>$39.99</span>
+          </div>
         </article>
         <article>
           <div class="deal-image">
             <div class="discount-ribon">98% OFF</div>
           </div>
-          <h3>The Essential PHP Coding Bundle</h3>
-          <span>$519</span>
-          <span>$29.99</span>
+          <div>
+            <h3>The Essential PHP Coding Bundle</h3>
+            <span>$519</span>
+            <span>$29.99</span>
+          </div>
         </article>
         <article>
           <div class="deal-image">
             <div class="discount-ribon">98% OFF</div>
           </div>
-          <h3>Mashvisor Professional Plan: Lifetime Subscription</h3>
-          <span>$4750</span>
-          <span>$99</span>
+          <div>
+            <h3>Mashvisor Professional Plan: Lifetime Subscription</h3>
+            <span>$4750</span>
+            <span>$99</span>
+          </div>
         </article>
         <article>
           <div class="deal-image">
             <div class="discount-ribon">98% OFF</div>
           </div>
-          <h3>The Lean Six Sigma Expert Training Bundle</h3>
-          <span>$2096</span>
-          <span>$49</span>
+          <div>
+            <h3>The Lean Six Sigma Expert Training Bundle</h3>
+            <span>$2096</span>
+            <span>$49</span>
+          </div>
         </article>
       </section>
     </div>
