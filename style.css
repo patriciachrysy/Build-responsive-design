@@ -124,6 +124,10 @@ select {
   padding: 7px 10px 3px 10px;
 }
 
+.sticky {
+  position: fixed;
+}
+
 .first-section {
   display: grid;
   grid: 1fr 1fr / 60% 1fr;
@@ -436,9 +440,139 @@ select {
 .fifth-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-gap: 50px 20px;
 }
 
-.fifth-section article img {
+.fifth-section .title {
+  margin: 0;
+}
+
+.fifth-section .title ul {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: end;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.fifth-section article {
+  height: 200px;
+}
+
+.deal-image {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70%;
+  overflow: hidden;
+}
+
+.discount-ribon{
+  color: black;
+  background-color: #FFDD33;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  display: grid;
+  align-items: end;
+  font-weight: bold;
+  position: relative;
+  left: 70%;
+  bottom: 15%;
+  transform: scale(1.1) rotateZ(calc(47 * 1deg));
+}
+
+.fifth-section article h3 {
+  line-height: 20px;
+  font-family: 'Cambay';
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.fifth-section article span:nth-child(3) {
+  color: #AAA;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-line: line-through;
+}
+
+.fifth-section article span:nth-child(4) {
+  color: #555555;
+  font-size: 16px;
+}
+
+footer {
   width: 100%;
+  text-align: center;
+  padding: 20px 0 0 0;
+  position: relative;
+  bottom: 0;
+}
+
+footer div:first-child{
+  background-color: #131313;
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 30px;
+  padding: 50px;
+}
+
+footer ul:first-child {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  grid-gap: 30px;
+  align-items: end;
+}
+
+footer ul:first-child li {
+  border-radius: 50%;
+  background-color: #333;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+}
+
+footer ul:first-child a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer ul:last-child {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: start;
+}
+
+footer ul:last-child a {
+  font-family: 'Changa';
+  font-size: 17px;
+  text-decoration: none;
+  color: #AAAA;
+}
+
+footer div:last-child {
+  background-color: #000000;
+  color: white;
+  padding: 35px 0;
+  font-size: 14px;
+  color: #AAA;
+}
+
+footer div:last-child i {
+  color: red;
+  margin: 0 3px;
+  font-size: 11px;
+}
+
+footer div:last-child img{
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
 }
