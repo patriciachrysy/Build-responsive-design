@@ -13,7 +13,7 @@ Project description.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/patriciachrysy/Build-responsive-design/2d4b34627ca2313963d8895c4c720c8f7ada41ae/index.html)
+[Live Demo Link](https://patriciachrysy.github.io/Build-responsive-design/)
 
 
 ## Getting Started
