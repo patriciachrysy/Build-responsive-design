@@ -1,6 +1,6 @@
-# Project Name
+# Building with responsive design
 
-> Project Title.
+> TNW Magazine responsive page.
 
 ![screenshot](./app_screenshot.png)
 
@@ -13,7 +13,7 @@ Project description.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/patriciachrysy/Build-responsive-design/2d4b34627ca2313963d8895c4c720c8f7ada41ae/index.html)
 
 
 ## Getting Started
@@ -59,14 +59,14 @@ To get a local copy up and running follow these simple example steps.
 👤 Manezeu Patricia Chrystelle
 
 - Github: [@githubhandle](https://github.com/patriciachrysy)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/ManezeuP)
+- Linkedin: [linkedin](https://www.linkedin.com/in/manezeu-patricia-chrystelle-095072118/)
 
-👤 **Author2**
+👤 Roman Nikolaev 
 
-- Github: [@githubhandle]()
+- Github: [@githubhandle](https://github.com/vzdrizhni)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Linkedin: [linkedin](https://twitter.com/metabruta)
 
 ## 🤝 Contributing
 
